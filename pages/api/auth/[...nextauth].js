@@ -9,8 +9,8 @@ const providers = [
             'https://accounts.google.com/o/oauth2/v2/auth?prompt=consent&access_type=offline&response_type=code',
     }),
     Providers.Facebook({
-        clientId: "274462795054859",
-        clientSecret: "6997c0a832073deacd94123ef34fff4b"
+        clientId: "1012781372956444",
+        clientSecret: "7c3123f05b64edee167b1fc2063ee6af"
     })
 ];
 
