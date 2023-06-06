@@ -36,7 +36,7 @@ const options = {
             return token
         },
         async session(session, token) {
-
+console.log("session",session)
 
             if (!token.accessToken && session.user && session.user.name && session.user.email) {
                 session.user = { ...session.user, isValid: true }
