@@ -3,8 +3,8 @@ import Providers from 'next-auth/providers'
 
 const providers = [
     Providers.Google({
-        clientId: "909250051096-nbe4vpu7sudnb0lmsjvvh6ptjkbpmls6.apps.googleusercontent.com",
-        clientSecret: "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",
+        clientId: "909250051096-cpsk737ip2kgcv0stvouqcerv13gj0qv.apps.googleusercontent.com",
+        clientSecret: "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",
         authorizationUrl:
             'https://accounts.google.com/o/oauth2/v2/auth?prompt=consent&access_type=offline&response_type=code',
     }),
