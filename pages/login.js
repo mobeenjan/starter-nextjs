@@ -9,7 +9,7 @@ const LogIn = ({ session }) => {
                 <title>Login</title>
             </Head>
 
-            <h2 className="mb-3 mt-3 font-weight-bold">Login to Your Account Testing1!</h2>
+            <h2 className="mb-3 mt-3 font-weight-bold">Login to Your Account Testing2!</h2>
 
             <div className="my-lg-3">
 
