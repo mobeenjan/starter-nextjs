@@ -8,7 +8,7 @@ const Home = () => {
 }
 export const getServerSideProps = async (context) => {
     const session = await getSession(context);
-   console.log(session)
+  // console.log(session)
     return {
         props: {
             session: session ? session : null,
