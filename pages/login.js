@@ -14,8 +14,7 @@ const LogIn = ({ session }) => {
             <div className="my-lg-3">
 
                 <button className="w-100 bg-white d-flex align-items-center justify-content-center" style={{ padding: "12px 0px", border: "1px solid #CCCCCC" }}
-                    onClick={() => signIn('facebook',
-                        { callbackUrl: 'https://sore-puce-hare-fez.cyclic.app/api/auth/callback/facebook' })}
+                    onClick={() => signIn('facebook')}
                 >
                     Login with Facebook
                 </button>
